@@ -1,0 +1,152 @@
+body {
+	margin: 0px;
+	padding: 0px;
+	background-position: top center;
+	background-color: #ffffff;
+	overflow: hidden;
+}
+
+form, pre, p {
+	margin: 0;
+	padding: 0;
+}
+
+#form {
+	width: 100%;
+	margin: 0 auto;
+	overflow: auto;
+	background-image: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#BDBDBD),
+		to(#FFFFFF), color-stop(.1, #FFFFFF));
+}
+
+img {
+	border: 0;
+}
+
+table {
+	border: 0px solid #000000;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 13px;
+	font-style: normal;
+	font-weight: normal;
+}
+
+.heading {
+	background-color: silver;
+	text-align: center;
+	font-weight: bold;
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+.container {
+	background: #fff;
+	padding-left: 30px;
+	border-radius: 10px;
+	box-shadow: 0px 0px 10px 0px;
+	padding: 20px;
+}
+
+#form-css {
+	
+	PADDING-LEFT: 40px;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(80%, 30%);
+}
+
+#login-h {
+	text-align: left;
+	font-size: 20px;
+	text-shadow: 1px 1px 2px #000000;
+	letter-spacing: 2px;
+}
+
+#register-btn {
+	/* background-color: #ff3f34; */
+	border: 1px solid black;
+	box-shadow: 1px 1px 2px 2px;
+	margin-left: 10px;
+	border-radius: 4px;
+	padding: 6px;
+	margin-left: 10px;
+	margin-left: 10px;
+}
+
+.fa-sign-out:before{
+	color: white;
+}
+
+.fa-home:before{
+	margin-right: 50px;
+	color: white;	
+}
+
+#home-nav {
+	position: fixed;
+	right: 0;
+	padding-right: 10px;
+	padding-left: 10px;
+	color: #ffff;
+	top: 7px;
+}
+
+#userForm-nav {
+	position: fixed;
+	right: 0;
+	top: 5px;
+	padding-right: 10px;
+	padding-left: 10px;
+	color: #ffff;
+}
+
+.p_tags_icons{
+	position: fixed;
+	right: 0;
+	top: 30px;
+	margin-right: 10px;
+	color: white;
+	right: 0;
+	font-size: smaller;
+}
+
+.p_tags_icons_home{
+	position: fixed;
+	right: 0;
+	top: 30px;
+	margin-right: 58px;
+	color: white;
+	right: 0;
+	font-size: smaller;
+}
+
+
+.navbar-inverse {
+	background-color: #db2128;
+	border-color: #cb1f27;
+}
+
+.navbar-inverse .navbar-brand {
+	color: white;
+}
+
+#footer {
+	position: absolute;
+	bottom: 0;
+	width: 100%;
+	height: 25px;
+	background-color: white !important;
+	border: 0 !important;
+	border-top: 1px !important;
+	border-style: solid !important;
+	border-color: #cbccce !important;
+	color: #6d6e71 !important;
+}
+
+#allHeadingCss{
+	font-size: 30px;
+	text-shadow: 1px 1px 2px #000000;
+	letter-spacing: 2px;
+	font-family: serif;
+}
+
